@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { GridBackground } from "@/components/GridBackground";
 import { Navbar } from "@/components/Navbar";
-import { Twitter, MessageSquare, Instagram, Heart, Share2, Rocket } from "lucide-react";
+import { X, MessageSquare, Globe, Heart, Share2, Rocket } from "lucide-react";
 
 export const CommunityClient = () => {
   const socialPosts = [
@@ -38,8 +38,8 @@ export const CommunityClient = () => {
           </p>
 
           <div className="flex flex-wrap justify-center gap-6 mb-20 text-foreground-light/80 dark:text-white/80">
-            <SocialLink icon={<Twitter fill="currentColor" />} label="Follow on X" />
-            <SocialLink icon={<Instagram />} label="Instagram" />
+            <SocialLink icon={<X fill="currentColor" />} label="Follow on X" />
+            <SocialLink icon={<Globe />} label="Instagram" />
             <SocialLink icon={<MessageSquare />} label="Discord" />
           </div>
 
